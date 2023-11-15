@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('pexels.jpg');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: rgb(1, 84, 57);
+}
+
+p{
+    color: rgb(2, 73, 49);
+}
+
+.container {
+    margin: 100px auto;
+    width: 300px;
+    background-color: hsla(177, 86%, 81%, 0.392) ;
+    padding: 46px;
+    border-radius: 5px;
+    border: 2px solid #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+}
+
+.forgot{
+    margin-left: 171px;
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+
+input[type="text"],
+input[type="password"],
+button{
+    width: 94%;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    padding: 8px;
+    border: 1px solid rgb(213, 244, 245);
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.transparent-box {
+    background-color: #84bdfac1;
+}
+
+.icon {
+    margin-left: -28px;
+    margin-right: 13px;
+}
+button {
+    background-color: #1784f9e5;
+    color: #fff;
+    border: none;
+    margin-left: 0px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #0056b3;
+}
+a{
+    color: rgb(6, 39, 86);
+    text-decoration: none;
+}
+a:hover{
+    color: rgba(4, 134, 26, 0.967);
+    
+}
